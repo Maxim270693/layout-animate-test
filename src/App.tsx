@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import LogoBlock from "./components/LogoBlock";
+
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      Hello
+        <LogoBlock/>
     </div>
   );
 }
