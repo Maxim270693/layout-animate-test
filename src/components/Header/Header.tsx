@@ -38,16 +38,16 @@ const Header = () => {
             </div>
 
             <div className={style.center_block} data-aos="fade-left" data-aos-delay="800">
-                <img src={Money} alt="" className={style.money}/>
+                <img src={Money} alt="logo money" className={style.money}/>
                 <div className={style.center_block_item}>
-                    <img src={Background} alt="" className={style.background}/>
-                    <img src={Girl} alt="" className={style.girl}/>
+                    <img src={Background} alt="background" className={style.background}/>
+                    <img src={Girl} alt="girl" className={style.girl}/>
                     <p className={style.center_text}>Watch: Nude in under 2 mins</p>
                 </div>
             </div>
 
             <div className={style.right_block} data-aos="fade-left" data-aos-delay="800">
-                <img src={Phone} alt=""/>
+                <img src={Phone} alt="photo"/>
             </div>
         </div>
     );

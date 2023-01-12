@@ -7,8 +7,8 @@ import style from "./Shop.module.scss";
 const Shop = () => {
     return (
         <div className={style.shop} data-aos="fade-down" data-aos-delay="400">
-            <img src={AppStore} alt="" className={style.header__appStore}/>
-            <img src={GooglePlay} alt="" className={style.header__googlePlay}/>
+            <img src={AppStore} alt="appStore" className={style.header__appStore}/>
+            <img src={GooglePlay} alt="googlePlay" className={style.header__googlePlay}/>
         </div>
     );
 };

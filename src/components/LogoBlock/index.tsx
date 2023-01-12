@@ -11,7 +11,7 @@ const LogoBlock = () => {
 
     return (
         <div className={style.logo}>
-            <img src={logo} alt="" className={style.img} onClick={onClickNavigateHandler}/>
+            <img src={logo} alt="logo" className={style.img} onClick={onClickNavigateHandler}/>
         </div>
     );
 };

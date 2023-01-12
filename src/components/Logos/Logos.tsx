@@ -13,13 +13,13 @@ import style from './Logos.module.scss';
 const Logos = () => {
     return (
         <div className={style.logos} data-aos="fade-up-right" data-aos-delay="600">
-            <img src={London} alt=""/>
-            <img src={Glamour} alt="" className={style.logos__img}/>
-            <img src={Courier} alt="" className={style.logos__img}/>
-            <img src={Yahoo} alt=""/>
-            <img src={Finextra} alt="" className={style.logos__img}/>
-            <img src={Featured} alt="" className={style.logos__img}/>
-            <img src={AppOfTheDay} alt=""/>
+            <img src={London} alt="logo london"/>
+            <img src={Glamour} alt="logo glamour" className={style.logos__img}/>
+            <img src={Courier} alt="logo courier" className={style.logos__img}/>
+            <img src={Yahoo} alt="logo yahoo"/>
+            <img src={Finextra} alt="logo finextra" className={style.logos__img}/>
+            <img src={Featured} alt="logo featured" className={style.logos__img}/>
+            <img src={AppOfTheDay} alt="logo AppOfTheDay"/>
         </div>
     );
 };
