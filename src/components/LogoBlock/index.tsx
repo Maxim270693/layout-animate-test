@@ -7,9 +7,11 @@ import style from './LogoBlock.module.scss'
 const LogoBlock = () => {
     const navigate = useNavigate();
 
+    const onClickNavigateHandler = () => navigate('/')
+
     return (
         <div className={style.logo}>
-            <img src={logo} alt="" className={style.img} onClick={() => navigate('/')}/>
+            <img src={logo} alt="" className={style.img} onClick={onClickNavigateHandler}/>
         </div>
     );
 };
